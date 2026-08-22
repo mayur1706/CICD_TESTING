@@ -4,7 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Tests passed\"",
+    // "test": "echo \"Tests passed\"",
+    "test": "exit 1",
     "start": "node server.js",
     "dev":"nodemon server.js"
   },
